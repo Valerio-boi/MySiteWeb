@@ -24,6 +24,15 @@
   color: white;
 }
 
+h1 {
+  color: #f8f9fa!important;
+  
+}
+
+p{
+  color: #f8f9fa!important;
+}
+
 .App-link {
   color: #61dafb;
 }
