@@ -1,5 +1,5 @@
 import React from 'react'
-import BackgroundInitial from '../background/sfondoIniziale.jpg'
+import BackgroundInitial from '../background/background2.jpg'
 import LinkLogo from "./LinkLogo"
 import NavBar from './navBar'
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -18,7 +18,7 @@ export default function backgroundDiv() {
                 textAlign: 'center'
             }}>
                 <NavBar />
-                <h1 style={{ marginTop: '30px' }}>Valerio boi</h1>
+                <h1 style={{ marginTop: '30px' }}>Valerio Boi</h1>
 
                 <br></br>
 
@@ -37,6 +37,7 @@ export default function backgroundDiv() {
 
 
             </p>
+
 
                 <div style={{
                     position: 'fixed',
