@@ -3,6 +3,8 @@ import BackgroundInitial from '../background/background2.jpg'
 import LinkLogo from "./LinkLogo"
 import NavBar from './navBar'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import TimeLine from './Timeline'
+
 
 export default function backgroundDiv() {
 
@@ -37,6 +39,7 @@ export default function backgroundDiv() {
 
 
             </p>
+                    <TimeLine />
 
 
                 <div style={{

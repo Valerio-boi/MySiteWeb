@@ -29,11 +29,22 @@ h1 {
   
 }
 
+.MuiPaper-root {
+  color: rgba(0, 0, 0, 0.87);
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  background-color: #343a40!important;
+}
+
 p{
   color: #f8f9fa!important;
 }
 
-
+.row {
+  display: flex;
+  flex-wrap: wrap;
+   margin-right: unset!important; 
+   margin-left: unset!important;
+}
 
 .App-link {
   color: #61dafb;
