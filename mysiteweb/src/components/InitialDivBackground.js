@@ -4,7 +4,9 @@ import LinkLogo from "./LinkLogo"
 import NavBar from './navBar'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import TimeLine from './Timeline'
-
+import CardSliders from './CardSliders'
+import news from '../img/newspaper.png'
+import DialogR from "./ResponsiveDialog";
 
 
 export default function backgroundDiv() {
@@ -40,12 +42,12 @@ export default function backgroundDiv() {
 
 
             </p>
-                    <TimeLine />
+                <TimeLine />
 
-                    
+
 
                 <div style={{
-                    position: 'fixed',
+                    position: 'absolute',
                     left: '50%',
                     bottom: '-30px',
                     transform: 'translate(-50%, -50%)',
@@ -53,9 +55,28 @@ export default function backgroundDiv() {
                 }}>
 
                     <LinkLogo />
-
                 </div>
+
+
             </div>
+            
+            <div style={{
+                backgroundColor: 'black', height: '100vh', backgroundPosition: 'center',
+                backgroundRepeat: 'no-repeat',
+                backgroundSize: 'cover',
+                textAlign: 'center'
+            }}>
+                <CardSliders 
+                              dialogUno={
+                                <DialogR
+                                  title={"news"}
+                                  icon={news}
+                                />
+                              }
+                            />
+            </div>
+
+
         </>
     );
 
