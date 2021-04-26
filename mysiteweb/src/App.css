@@ -46,6 +46,13 @@ p{
    margin-left: unset!important;
 }
 
+.navbar-text {
+  display: inline-block;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  color: white!important;
+}
+
 .App-link {
   color: #61dafb;
 }

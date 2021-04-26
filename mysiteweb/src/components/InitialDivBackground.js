@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import TimeLine from './Timeline'
 
 
+
 export default function backgroundDiv() {
 
 
@@ -41,6 +42,7 @@ export default function backgroundDiv() {
             </p>
                     <TimeLine />
 
+                    
 
                 <div style={{
                     position: 'fixed',
